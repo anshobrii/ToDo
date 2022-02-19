@@ -7,7 +7,7 @@ $(document).ready(function () {
         var item = $("#todo-list-item").val();
 
         if (item) {
-        $("#list-items").append("<li><input class = 'checkbox' type='checkbox'/>"+ item +  "<a class='remove'>x</a><hr></li>")
+        $("#list-items").append("<li><input class = 'checkbox' type='checkbox'/>"+ item +  "<a class='remove'>Remove</a><hr></li>")
         localStorage.setItem("listItems",$("#list-items").html());
         
         $("#todo-list-item").val("");
