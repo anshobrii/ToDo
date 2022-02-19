@@ -1,0 +1,76 @@
+.container {
+    margin: 0 auto;
+    min-width: 500px;
+    width: 45%;
+    text-align: left;
+    color: #3b3b3b;
+    font-weight: bold;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+form {
+    outline: 0;
+    height: 36px;
+    margin-top: 5%;
+    border: 3px solid #3b3b3b;
+}
+
+input[type="text"] {
+    outline: 0;
+    width: 55%;
+    height: 32px;
+    border: none;
+    font-size: 18px;
+    font-weight: normal;
+    padding-left: 10px;
+}
+
+.add {
+    outline: 0;
+    float: right;
+    width: 34%;
+    height: 36px;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    background-color: #3b3b3b;
+}
+
+ul {
+    padding: 0;
+    text-align: left;
+    list-style: none;
+}
+
+hr {
+    border-bottom: 0;
+    margin: 15px 0;
+}
+
+input[type="checkbox"] {
+    width: 30px;
+}
+
+.remove {
+    float: right;
+    cursor: pointer;
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
+
+@import url(https://fonts.googleapis.com/css?family=Petit+Formal+Script); /* FONT USED FOR NAME IN NAV */
+@import url(https://fonts.googleapis.com/css?family=Droid+Sans:400,700); /* FONT USED FOR BODY */
+
+body {
+  margin-top: 2em;
+  font-family: 'Droid Sans', sans-serif;
+  background: url("http://bangsaid.com/wp-content/uploads/2015/06/background-image-repeat-17-cool-hd-background-and-wallpaper.png") center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  }
